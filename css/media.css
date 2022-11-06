@@ -1,0 +1,106 @@
+/* =====================media==================== */
+
+
+/* Small devices (landscape phones, 576px and up) */
+/* navbar */
+@media (max-width: 580px) {
+    .navbar-light .navbar-brand{
+        display: none;
+    }
+    .navbar-nav .nav-b{
+        display: block;
+        text-decoration: none;
+        font-size: x-large;
+        color: white;
+        margin: 5px;
+    }        
+    .navbar-light .img-brand{
+        width: 20%;
+    }
+    .linkul.me-auto {
+        margin-right: 0 !important;
+    }
+    .navbar-nav .nav-link::before {
+        display: none;
+    }
+    .navbar-nav .nav-link.active::before {
+        display: none;
+    }
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+        color: rgb(52 183 167);
+        font-size: 16px;
+    }
+/* navbar */
+    .squ1 {
+    display: none;
+    }
+    .squ3 {
+        height: 150px;
+        width: 150px;
+        left: 10%;
+        top: 88%;
+    }
+    .squ4 {
+        display: none;
+        }
+    .squ5 {
+        top: 145%;
+            }
+    .squ6 {
+        height: 70px;
+        width: 70px;
+        left: 5%;
+        bottom: -315%;
+        top: 422%;
+        }
+        .squ6r {
+            left: 75%;
+            top: 410%;
+        }
+        .squ3-c {
+            left: 7%;
+            top: 101%;
+        }
+    /* =====roadmap===== */
+    .roadmap .roadmap-items {
+        display: flex;
+        flex-direction: column;
+    }    
+    .roadmap-items:before {
+        right: 98%;
+        top: -4%;
+    }
+    .roadmap-item.right {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .roadmap-item.right::after {
+        left: -35px;
+        right: auto;
+    }
+    .roadmap-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .roadmap-item::after {
+        left: -35px;
+        width: 35px;
+    }
+    .roadmap-item::before {
+        right: -1.5px;
+        bottom: -2px;
+        width: calc(101% + 4px);
+        background: linear-gradient( 
+    243deg, #191f36 48%, #13c5a5 100%);
+    }
+    .roadmap-item.orange::before {
+        background: linear-gradient(
+    243deg, #191f36 48%, #f1992d 100%);
+    }
+    .roadmap-item.purble::before {
+        background: linear-gradient(
+    242deg, #191f36 48%, #e769cb 100%);
+    }
+}
+
+/* =====================media==================== */
